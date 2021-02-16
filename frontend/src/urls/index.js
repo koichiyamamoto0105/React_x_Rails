@@ -1,4 +1,5 @@
-const DEFAULT_API_LOCALHOST = 'http://vfs.cloud9.ap-northeast-1.amazonaws.com/api/v1'
+const DEFAULT_API_LOCALHOST = 'https://.vfs.cloud9.ap-northeast-1.amazonaws.com/api/v1'
+
 
 export const restaurantsIndex = `${DEFAULT_API_LOCALHOST}/restaurants`
 export const foodsIndex = (restaurantId) =>
